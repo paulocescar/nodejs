@@ -1,5 +1,7 @@
 const Pagseguro = require('../models/Pagseguro');
 
+const request = require('request');
+
 let email = "alefrodrigues538@gmail.com";
 let token = "F397326FBA1D47E19F563E7D412E0A98";
 

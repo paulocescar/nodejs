@@ -25,7 +25,7 @@ routes.post('/add_product', verifyJWT, multer(multerConfig).array('photos', 12),
 routes.post('/edit_product', verifyJWT, multer(multerConfig).array('photos', 12), ProductsController.edit);
 
 
-routes.post('/sessao', PagseguroController.sessao);
+routes.get('/sessao', PagseguroController.sessao);
 routes.post('/bandeira', PagseguroController.bandeira);
 routes.post('/parcelamento', PagseguroController.parcelamento);
 routes.post('/token_cartao', PagseguroController.token_cartao);
