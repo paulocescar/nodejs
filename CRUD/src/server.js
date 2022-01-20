@@ -1,4 +1,3 @@
-require("dotenv-safe").config();
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser')
